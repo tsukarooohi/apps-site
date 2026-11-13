@@ -88,6 +88,15 @@ footer a { color: var(--muted); }
   border-radius: 8px;
   border: 1px solid var(--border);
 }
+/* 見本の票（横幅いっぱいまで縮める・暗い配色でも白地のまま） */
+.sample-sheet {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
 /* スマホ閲覧時はQR不要（そのままボタンでストアへ行ける） */
 @media (max-width: 600px) {
   .qr-block { display: none; }
